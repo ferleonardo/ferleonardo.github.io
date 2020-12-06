@@ -1,5 +1,11 @@
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+a {
+    color: #18448f;
+}
 a:hover, a:focus {
-    color: #ff661f;
+    color: #007bff !important;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -142,6 +148,9 @@ a:hover, a:focus {
 }
 
 /* SERVICOS */
+#servicos .bg-primary {
+    background-color: #18448f !important;
+}
 #servicos .card-title {
     display: contents;
 }
@@ -153,6 +162,39 @@ a:hover, a:focus {
 #servicos .card-title h6 {
     font-size: 14px;
     text-align: center;
+}
+
+/* MULTIMÍDIAS */
+#multimidias {
+    background-color: #102950;
+    color: #fff;
+    padding: 60px 0;
+}
+#multimidias .foto {
+    margin: 0 -10px;
+}
+#multimidias .foto img {
+    position: relative;
+    z-index: 3;
+    border-radius: 5px;
+    max-width: 100%;
+}
+#multimidias .foto:after {
+    content: "";
+    background: #ffbe00;
+    position: absolute;
+    left: -30px;
+    top: -30px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    border-radius: 5px;
+}
+#multimidias .destaques .badge {
+    margin-top: 10px;
+    position: absolute;
+    left: 10px;
+    text-transform: uppercase;
 }
 
 /* COMPONENTES */
