@@ -25,3 +25,21 @@
     background-color: #fdba3d;
 }
 
+/* Pesquisa */
+#form-pesquisa .form-control:focus {
+    border-color: #fff;
+    background-color: #18448f;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#form-pesquisa .form-control:focus, #form-pesquisa .form-control:focus::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+#form-pesquisa .form-control::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 17px;
+    width: 17px;
+    cursor: pointer;
+    background: url('../img/icons/limpar.png');
+  }
