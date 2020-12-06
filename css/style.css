@@ -1,0 +1,27 @@
+/* NAVEGACAO */
+.navbar-area {
+    background-color: #f6f6f6;
+    height: 90px;
+}
+.navbar-area .navbar {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    padding: 0;
+}
+.navbar-area .navbar .navbar-brand img {
+    max-width: 200px;
+}
+.navbar-area .navbar .navbar-nav {
+    margin: auto;
+}
+.navbar-area .navbar .navbar-nav .nav-item {
+    position: relative;
+}
+.navbar-area .navbar .navbar-nav .nav-item.active > a {
+    color: #18448f;
+}
+.navbar-area .navbar .navbar-nav .nav-item a:hover, .navbar-area .navbar .navbar-nav .nav-item a:focus, .navbar-area .navbar .navbar-nav .nav-item a.active {
+    color: #ffffff;
+    background-color: #fdba3d;
+}
+
