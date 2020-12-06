@@ -99,6 +99,20 @@ a:hover, a:focus {
     margin-top: -20px;
 }
 
+/* SERVICOS */
+#servicos .card-title {
+    display: contents;
+}
+#servicos .card-title i {
+    text-align: center;
+    padding-bottom: 5px;
+    display: block;
+}
+#servicos .card-title h6 {
+    font-size: 14px;
+    text-align: center;
+}
+
 /* COMPONENTES */
 .cabecalho {
     margin-bottom: 25px;
