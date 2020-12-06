@@ -102,7 +102,7 @@ a:hover, a:focus {
 /* SLIDE */
 #slide {
     padding: 20px 0;
-    background: url(../img/logo-negativa.png) no-repeat scroll right top;
+    background: url(../img/marca-dagua.png) no-repeat scroll right top;
     background-position-y: 10px;
     background-color: #f6f6f6;
 }
@@ -222,6 +222,23 @@ a:hover, a:focus {
     line-height: 50px;
 }
 
+/* RODAPE */
+#rodape {
+    padding: 40px 0;
+    background-color: #18448f;
+    color: #fff;
+}
+.copyright {
+    background-color: #222;
+    height: 30px;
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+    padding: 5px;
+}
+.copyright a {
+    color: #ccc;
+}
 
 /* COMPONENTES */
 .cabecalho {
