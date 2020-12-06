@@ -196,6 +196,32 @@ a:hover, a:focus {
     left: 10px;
     text-transform: uppercase;
 }
+#multimidias .play {
+    position: absolute;
+    left: 50%;
+    margin-left: -40px;
+    top: 50%;
+    margin-top: -40px;
+    z-index: 5;
+    background: rgba(255,190,0,.8);
+    height: 80px;
+    width: 80px;
+    line-height: 95px;
+    text-align: center;
+    padding-left: 3px;
+    border-radius: 50%;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+}
+#multimidias .destaques .play {
+    margin-left: -20px;
+    margin-top: -80px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}
+
 
 /* COMPONENTES */
 .cabecalho {
