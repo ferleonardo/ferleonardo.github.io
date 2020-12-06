@@ -2,6 +2,7 @@
 .navbar-area {
     background-color: #f6f6f6;
     height: 90px;
+    border-bottom: 1px solid #e6e6e6;
 }
 .navbar-area .navbar {
     -webkit-transition: 0.5s;
@@ -42,4 +43,24 @@
     width: 17px;
     cursor: pointer;
     background: url('../img/icons/limpar.png');
-  }
+}
+
+/* SLIDE */
+#slide {
+    padding: 20px 0;
+    background: url(../img/logo-negativa.png) no-repeat scroll right top;
+    background-position-y: 10px;
+    background-color: #f6f6f6;
+}
+#slide .carousel {
+    box-shadow: 0px 5px 14px 0px #000;
+}
+#slide img {
+    border-radius: 5px;
+}
+#slide .carousel-indicators li {
+    height: 15px;
+    background-color: #fdba3d;
+    border: 1px;
+    border-radius: 3px;
+}
