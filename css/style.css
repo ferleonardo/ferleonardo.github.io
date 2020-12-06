@@ -4,6 +4,44 @@ a:hover, a:focus {
     transition: 0.3s;
 }
 
+/* TOPO */
+.topbar-area {
+    background: #fff;
+    padding: 5px;
+    color: #999;
+    font-size: 15px;
+}
+.social-area, .intranet-area {
+    padding: 0;
+    margin: 0;
+}
+.social-area li, .intranet-area li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 1px;
+}
+.social-area li a {
+    transition: 0.4s;
+    height: 27px;
+    width: 27px;
+    display: inline-block;
+    text-align: center;
+    line-height: 29px;
+    border-radius: 50%;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    transition: all 0.4s ease-in;
+}
+.social-area li a i.fa-youtube {
+    color: #ff0000;
+}
+.social-area li a i.fa-facebook {
+    color: #0d8af0;
+}
+.social-area li a i.fa-twitter {
+    color: #00acee;
+}
+
 /* NAVEGACAO */
 .navbar-area {
     background-color: #f6f6f6;
@@ -49,6 +87,10 @@ a:hover, a:focus {
     width: 17px;
     cursor: pointer;
     background: url('../img/icons/limpar.png');
+}
+#form-pesquisa button {
+    margin-left: -15px;
+    border-radius: 0 3px 3px 0;
 }
 
 /* SLIDE */
