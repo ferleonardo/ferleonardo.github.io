@@ -262,3 +262,36 @@ a:hover, a:focus {
 .cabecalho span {
     margin-top: -30px;
 }
+
+/* Botao para rolar página para o topo */
+.ir-topo {
+	display: inline-block;
+	position: fixed;
+	bottom: 50px;
+	right: 20px;
+	z-index: 999;
+	overflow: hidden;
+	white-space: nowrap;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity .3s 0s, visibility 0s .3s;
+	-moz-transition: opacity .3s 0s, visibility 0s .3s;
+	transition: opacity .3s 0s, visibility 0s .3s;
+    border-radius: 20px;
+}
+.ir-topo:hover {
+    opacity: 1;
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+}
+.ir-topo i {
+    color: #007bff !important;
+}
+.ir-topo.visivel {
+    visibility: visible;
+    opacity: 1;
+}
+.ir-topo.transparente {
+    opacity: .5;
+}
