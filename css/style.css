@@ -68,11 +68,13 @@ a:hover, a:focus {
 .navbar-area .navbar .navbar-nav .nav-item {
     position: relative;
 }
+
 .navbar-area .navbar .navbar-nav .nav-item.active > a {
     color: #18448f;
 }
-.navbar-area .navbar .navbar-nav .nav-item a:hover, .navbar-area .navbar .navbar-nav .nav-item a:focus, .navbar-area .navbar .navbar-nav .nav-item a.active {
-    color: #ffffff;
+.navbar-area .navbar .navbar-nav .nav-item a:hover,
+.navbar-area .navbar .navbar-nav .nav-item a:focus,.navbar-area .navbar .navbar-nav .nav-item a.active {
+    color: #ffffff !important;
     background-color: #fdba3d;
 }
 
@@ -225,8 +227,8 @@ a:hover, a:focus {
 /* RODAPE */
 #rodape {
     padding: 40px 0;
-    background-color: #18448f;
     color: #fff;
+    background-color: #18448f;
 }
 .copyright {
     background-color: #222;
