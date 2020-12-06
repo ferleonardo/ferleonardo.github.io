@@ -1,3 +1,9 @@
+a:hover, a:focus {
+    color: #ff661f;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
 /* NAVEGACAO */
 .navbar-area {
     background-color: #f6f6f6;
@@ -63,4 +69,53 @@
     background-color: #fdba3d;
     border: 1px;
     border-radius: 3px;
+}
+
+/* DESTAQUES */
+#destaque .noticia {
+    padding: 20px 0;
+}
+#destaque .noticia span {
+    font-size: 15px;
+    font-weight: 500;
+    color: #ff661f;
+    text-transform: uppercase;
+}
+#destaque .noticia h3 {
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+#destaque .noticia p {
+    color: #656565;
+    font-size: 13px;
+}
+#destaque .foto {
+    height: 300px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+#destaque .card-title {
+    margin-top: -20px;
+}
+
+/* COMPONENTES */
+.cabecalho {
+    margin-bottom: 25px;
+    position: relative;
+    border-bottom: 1px solid #eeeeee;
+    width: 100%;
+}
+.cabecalho::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    height: 2px;
+    bottom: -1px;
+    background: #18448f;
+}
+.cabecalho span {
+    margin-top: -30px;
 }
