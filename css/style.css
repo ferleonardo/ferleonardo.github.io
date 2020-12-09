@@ -10,7 +10,11 @@ a:hover, a:focus {
     transition: 0.3s;
 }
 
-/* TOPO */
+/*
+|--------------------------------------------------------------------------
+| TOPO
+|--------------------------------------------------------------------------
+*/
 .topbar-area {
     background: #fff;
     padding: 5px;
@@ -48,7 +52,11 @@ a:hover, a:focus {
     color: #00acee;
 }
 
-/* NAVEGACAO */
+/*
+|--------------------------------------------------------------------------
+| NAVEGACAO
+|--------------------------------------------------------------------------
+*/
 .navbar-area {
     background-color: #f6f6f6;
     height: 90px;
@@ -94,7 +102,11 @@ a:hover, a:focus {
     transition-delay: 0s, 0.15s;
   }
 
-/* Pesquisa */
+/*
+|--------------------------------------------------------------------------
+| PESQUISA
+|--------------------------------------------------------------------------
+*/
 #form-pesquisa .form-control:focus {
     border-color: #fff;
     background-color: #18448f;
@@ -117,7 +129,11 @@ a:hover, a:focus {
     border-radius: 0 3px 3px 0;
 }
 
-/* SLIDE */
+/*
+|--------------------------------------------------------------------------
+| SLIDE CAROUSEL
+|--------------------------------------------------------------------------
+*/
 #slide {
     padding: 20px 0;
     background: url(../img/marca-dagua.png) no-repeat scroll right top;
@@ -137,7 +153,11 @@ a:hover, a:focus {
     border-radius: 3px;
 }
 
-/* DESTAQUES */
+/*
+|--------------------------------------------------------------------------
+| DESTAQUES
+|--------------------------------------------------------------------------
+*/
 #destaque .noticia {
     padding: 20px 0;
 }
@@ -165,7 +185,11 @@ a:hover, a:focus {
     margin-top: -20px;
 }
 
-/* SERVICOS */
+/*
+|--------------------------------------------------------------------------
+| SERVICOS
+|--------------------------------------------------------------------------
+*/
 #servicos .bg-primary {
     background-color: #18448f !important;
 }
@@ -182,7 +206,11 @@ a:hover, a:focus {
     text-align: center;
 }
 
-/* MULTIMÍDIAS */
+/*
+|--------------------------------------------------------------------------
+| MULTIMÍDIAS
+|--------------------------------------------------------------------------
+*/
 #multimidias {
     background-color: #102950;
     color: #fff;
@@ -240,7 +268,11 @@ a:hover, a:focus {
     line-height: 50px;
 }
 
-/* RODAPE */
+/*
+|--------------------------------------------------------------------------
+| RODAPE
+|--------------------------------------------------------------------------
+*/
 #rodape {
     padding: 40px 0;
     color: #fff;
@@ -258,7 +290,11 @@ a:hover, a:focus {
     color: #ccc;
 }
 
-/* COMPONENTES */
+/*
+|--------------------------------------------------------------------------
+| COMPONENTES
+|--------------------------------------------------------------------------
+*/
 .cabecalho {
     margin-bottom: 25px;
     position: relative;
@@ -279,7 +315,12 @@ a:hover, a:focus {
     margin-top: -30px;
 }
 
-/* Botao para rolar página para o topo */
+
+/*
+|--------------------------------------------------------------------------
+| UTILITÁRIOS
+|--------------------------------------------------------------------------
+*/
 .ir-topo {
 	display: inline-block;
 	position: fixed;
@@ -310,4 +351,45 @@ a:hover, a:focus {
 }
 .ir-topo.transparente {
     opacity: .5;
+}
+
+/* Separadores */
+hr.separador-1 {
+    margin: 2rem 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+/* Tamanho fontes */
+.fs-14 {
+    font-size: 14px !important;
+    line-height: 1.4;
+}
+.fs-15 {
+    font-size: 15px !important;
+    line-height: 1.4;
+}
+.fs-16 {
+    font-size: 16px !important;
+    line-height: 1.4;
+}
+.fs-20 {
+    font-size: 20px !important;
+    line-height: 1.4;
+}
+
+/*
+|--------------------------------------------------------------------------
+| PAGINAS
+|--------------------------------------------------------------------------
+*/
+
+/* Noticia */
+#noticia article {
+    padding: 0 60px;
+}
+#noticia h2 {
+    color: #333;
+}
+#noticia header {
+    
 }
