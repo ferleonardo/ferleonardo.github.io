@@ -209,6 +209,12 @@ a:focus {
 #servicos .bg-primary {
   background-color: #18448f !important;
 }
+#servicos .card-group {
+    box-shadow: 0px 5px 14px 0px #000;
+}
+#servicos .card {
+  cursor: pointer;
+}
 #servicos .card-title {
   display: contents;
 }
@@ -220,6 +226,12 @@ a:focus {
 #servicos .card-title h6 {
   font-size: 14px;
   text-align: center;
+}
+#servicos .card:hover i, #servicos .card:hover h6 {
+  color: #ffbe00
+}
+#servicos .card:hover {
+    box-shadow: 0px 5px 0px 0px #ffbe00
 }
 
 /*
