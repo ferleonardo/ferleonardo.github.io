@@ -44,13 +44,47 @@ const relogio = (elemento, data) => {
   });
 };
 
-relogio(elementoRelogio, dataAtual)
+// video player
+const videoPlayer = () => {
+  const player = document.querySelector("#player");
+  const iframe = player.getElementsByTagName("iframe")[0];
+
+  document.querySelectorAll("a.video-botao").forEach((elemento) =>
+    elemento.addEventListener("click", function (event) {
+      event.stopPropagation();
+      event.preventDefault();
+      event.path.forEach((e) => {
+        url = `${e.href}?enablejsapi=1`;
+        if (e.nodeName == "A" && iframe.src != url) {
+          iframe.src = url;
+        }
+      });
+
+      player.style.display = "block";
+      document.body.style.overflow = "hidden";
+    })
+  );
+
+  player.querySelector(".fechar").addEventListener("click", function (event) {
+    event.stopPropagation();
+    event.preventDefault();
+    player.style.display = "none";
+    document.body.style.overflow = "auto";
+    iframe.contentWindow.postMessage(
+      '{"event":"command","func":"' + "stopVideo" + '","args":""}',
+      "*"
+    );
+  });
+};
+
+relogio(elementoRelogio, dataAtual);
 
 $(function () {
-  //  Bootstrap
+  // Bootstrap
   $('[data-toggle="tooltip"]').tooltip();
 
   // Iniciando funcoes
   irParaTopo();
+  videoPlayer();
   setInterval(() => relogio(elementoRelogio, dataAtual), 1000);
 });
