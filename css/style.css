@@ -72,11 +72,27 @@ a:hover, a:focus {
 .navbar-area .navbar .navbar-nav .nav-item.active > a {
     color: #18448f;
 }
-.navbar-area .navbar .navbar-nav .nav-item a:hover,
-.navbar-area .navbar .navbar-nav .nav-item a:focus,.navbar-area .navbar .navbar-nav .nav-item a.active {
+.navbar-area .navbar .navbar-nav .nav-item > a:hover,
+.navbar-area .navbar .navbar-nav .nav-item > a:focus,.navbar-area .navbar .navbar-nav .nav-item > a.active {
     color: #ffffff !important;
     background-color: #fdba3d;
 }
+.navbar-area .navbar .navbar-nav .nav-item div a:hover {
+    color: #ffffff !important;
+    background-position: -100% 100%;
+}
+.navbar-area .navbar .navbar-nav .nav-item div a {
+    background-image: linear-gradient(
+      90deg,
+      transparent 0%,
+      transparent 50%,
+      #fdba3d 50%,
+      #fdba3d 100%
+    );
+    background-size: 200%;
+    transition: background-position 0.3s cubic-bezier(0.47, 0.1, 1, 0.63), color 0.2s linear;
+    transition-delay: 0s, 0.15s;
+  }
 
 /* Pesquisa */
 #form-pesquisa .form-control:focus {
