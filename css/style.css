@@ -451,3 +451,12 @@ hr.separador-1 {
 #galeria .fotos .card {
   width: 18rem;
 }
+#cursos .card button {
+  text-decoration: none;
+  color: #102950;
+}
+#cursos .card button:focus {
+  color: #007bff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
