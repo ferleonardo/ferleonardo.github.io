@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unitins - Universidade Estadual do Tocantins | Cursos</title>
+    <link rel="shortcut icon" href="../img/icons/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/8151011b7f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="topbar-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 align-self-center d-none d-lg-block">
+                    <div class="text-left">
+                        Tocantins, <span id="relogio"></span>
+                    </div>
+                </div>
+                <div class="col-md-8 align-self-center text-md-right text-center ">
+                    <div class="float-right ml-5">
+                        <ul class="intranet-area">
+                            <li>
+                                <a href="https://www.unitins.br/PortalAluno/Account/Login?ReturnUrl=%2fportalaluno"
+                                    data-toggle="tooltip" data-placement="auto" title="Portal do Aluno">
+                                    <span class="badge badge-primary mr-2"><i class="fas fa-user-graduate"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.unitins.br/apps/portaldoprofessor" data-toggle="tooltip"
+                                    data-placement="auto" title="Portal do Professor">
+                                    <span class="badge badge-primary mr-2"><i class="fas fa-user-tie"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.unitins.br/apps/Account/Login?ReturnUrl=%2fapps"
+                                    data-toggle="tooltip" data-placement="auto" title="Administrativo">
+                                    <span class="badge badge-primary"><i class="fas fa-tv"></i></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="float-right d-none d-lg-block">
+                        <ul class="social-area">
+                            <li><a href="https://www.youtube.com/channel/UCRtt_C3Q_9cm5J532cTzr2Q" target="_blank"><i
+                                        class="fab fa-youtube"></i></a></li>
+                            <li><a href="https://www.facebook.com/unitinsoficial" target="_blank"><i
+                                        class="fab fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/unitins" target="_blank"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li><a href="https://www.instagram.com/unitins_oficial" target="_blank"><i
+                                        class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/school/unitins" target="_blank"><i
+                                        class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar-area">
+
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand" href="/">
+                    <img src="../img/logo.jpeg" alt="Logo da Unitins">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownInstitucional" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Institucional
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownInstitucional">
+                                <a class="dropdown-item" href="#">Unitins</a>
+                                <a class="dropdown-item" href="#">Histórico</a>
+                                <a class="dropdown-item" href="#">Reitoria</a>
+                                <a class="dropdown-item" href="#">Pró-reitorias</a>
+                                <a class="dropdown-item" href="#">Conselhos</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Galeria de Reitores</a>
+                            </div>
+                        </li>
+                        <li class="nav-item active dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownCursos" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Cursos
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownCursos">
+                                <a class="dropdown-item" href="/cursos">Administração</a>
+                                <a class="dropdown-item" href="/cursos">Ciências Contábeis</a>
+                                <a class="dropdown-item" href="/cursos">Direito</a>
+                                <a class="dropdown-item" href="/cursos">Enfermagem</a>
+                                <a class="dropdown-item" href="/cursos">Engenharia Agronômica</a>
+                                <a class="dropdown-item" href="/cursos">Letras</a>
+                                <a class="dropdown-item" href="/cursos">Pedagogia</a>
+                                <a class="dropdown-item" href="/cursos">Serviço Social</a>
+                                <a class="dropdown-item" href="/cursos">Sistemas de Informação</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="/cursos">Tecnólogo em Agronegócio</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pesquisa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Extensão</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Vestibular</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0" id="form-pesquisa">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar no site">
+                        <button class="btn btn-primary my-2 my-sm-0" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <main id="cursos">
+        <section class="container mt-3">
+            <div class="cabecalho">
+                <h2>
+                    Sistemas de Informação
+                    <span class="badge badge-warning fs-16 px-1 py-0">Câmpus Palmas</span>
+                </h2>
+                <span class="float-right d-none">
+                    <a href="">ver todas</a>
+                </span>
+            </div>
+        </section>
+        <article class="container my-3">
+            <div class="accordion" id="accordionCurso">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Informações Gerais
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                        data-parent="#accordionCurso">
+                        <div class="card-body">
+                            <strong>Curso:</strong> Sistemas de Informação<br>
+                            <strong>Titulação:</strong> Bacharelado<br>
+                            <strong>Modalidade:</strong> Presencial<br>
+                            <strong>Duração do curso:</strong> 4 anos (8 semestres)<br>
+                            <strong>Período:</strong> Matutino
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                Objetivo
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionCurso">
+                        <div class="card-body">
+                            Formar profissionais da área de Computação e Informática para atuação no desenvolvimento,
+                            planejamento, análise, utilização, avaliação e gerenciamento de modernas tecnologias de
+                            informação aplicadas às áreas administrativas e industriais, em organizações públicas e
+                            privadas, por meio de uma formação técnica, gerencial, ética e empreendedora.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                Campos de Atuação
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionCurso">
+                        <div class="card-body">
+                            O aluno formado por este curso poderá atuar como engenheiro de software, analista de
+                            sistemas, analista de negócios em TI, administrador de bancos de dados, administrador e
+                            gerente de redes de computadores, gerente de área de sistemas de informação, empresário na
+                            área de sistemas de informação e consultor na área de sistemas de informação.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                aria-controls="collapseFour">
+                                Competências e Habilidades
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionCurso">
+                        <div class="card-body">
+                            O curso está comprometido com o desenvolvimento de competências e habilidades que levam em
+                            conta as dimensões de gestão, tecnológicas e humanas, desenvolvidas por meio das disciplinas
+                            que compõe a matriz curricular. Assim, são relacionadas a seguir as competências e
+                            habilidades que devem ser estimuladas pelo Curso de Sistemas de Informação da Fundação
+                            Universidade do Tocantins.
+                            <div class="my-3">
+                                <h3>Competências Tecnológicas e de Gestão:</h3>
+                                <ul>
+                                    <li>compreender a dinâmica empresarial decorrente de mercados mais exigentes e
+                                        conscientes de seus direitos e das novas necessidades sociais, ambientais e
+                                        econômicas;
+                                    </li>
+                                    <li>diagnosticar e mapear, com base científica, problemas e pontos de melhoria nas
+                                        organizações, propondo alternativas de soluções baseadas em sistemas de
+                                        informação;
+                                    </li>
+                                    <li>planejar e gerenciar os sistemas de informação de forma a alinhá-los aos
+                                        objetivos
+                                        estratégicos de negócio das organizações;
+                                    </li>
+                                    <li>modelar, especificar, implementar, implantar e validar sistemas de informação;
+                                    </li>
+                                    <li>auxiliar os profissionais das outras áreas a compreenderem a forma com que
+                                        sistemas
+                                        de informação podem contribuir para as áreas de negócio;
+                                    </li>
+                                    <li>participar do acompanhamento e monitoramento da implementação da estratégia da
+                                        organização, identificando as possíveis mudanças que podem surgir pela evolução
+                                        da
+                                        tecnologia.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="my-3">
+                                <h3>Competências Humanas:</h3>
+                                <ul>
+                                    <li>ser criativo e inovador na proposição de soluções
+                                        para os problemas e oportunidades identificados nas organizações;</li>
+                                    <li>expressar ideias de forma clara, empregando
+                                        técnicas de comunicação apropriadas para cada situação;</li>
+                                    <li>participar e conduzir processos de negociação para
+                                        o alcance de objetivos;</li>
+                                    <li>participar e criar grupos com intuito de alcançar
+                                        objetivos;</li>
+                                    <li>ter uma visão contextualizada da área de sistemas
+                                        de informação em termos políticos, sociais e econômicos;</li>
+                                    <li>identificar oportunidades de negócio, criando e
+                                        gerenciando empreendimentos para a concretização dessas oportunidades;</li>
+                                    <li>atuar social e profissionalmente de forma ética.</li>
+                                </ul>
+                            </div>
+                            <div class="my-3">
+                                <h3>Habilidades:</h3>
+                                <ul>
+                                    <li>construir algoritmos e implementá-los em linguagens de programação;</li>
+                                    <li>compreender os fundamentos da programação procedural e orientada a objetos;</li>
+                                    <li>ter uma visão abrangente e sistêmica de projetos;</li>
+                                    <li>conhecer tópicos sobre projeto de sistemas, tais como estrutura, funcionalidade,
+                                        segurança, custo, complexidade, performance, risco e implementação;</li>
+                                    <li>entender a arquitetura de computadores para fazer a seleção adequada da
+                                        plataforma computacional a ser utilizada em um sistema de informação;</li>
+                                    <li>conhecer estruturas de dados e arquivos para entender as implicações dos vários
+                                        esquemas de indexação e estruturas de armazenagem de dados;</li>
+                                    <li>entender sobre modelagem de dados, modelos de banco de dados, normalização,
+                                        integridade e segurança de dados, necessários para desenvolvimento de sistemas
+                                        de informação;</li>
+                                    <li>compreender os modelos de processamento de transações, tanto para ambientes
+                                        centralizados como distribuídos;</li>
+                                    <li>compreender os fundamentos de sistemas operacionais que suportam os sistemas de
+                                        informação;</li>
+                                    <li>compreender os modelos de estrutura organizacional, as funções empresariais e
+                                        seus processos de negócios;</li>
+                                    <li>reconhecer os benefícios e impactos das tecnologias de informação e comunicação
+                                        para a sociedade, com vistas a atuar de maneira ética e socialmente responsável;
+                                    </li>
+                                    <li>compreender as características dos sistemas de informação operacionais, táticos
+                                        e estratégicos no âmbito das organizações;</li>
+                                    <li>analisar, projetar, modelar, implementar e validar sistemas de informação para
+                                        as organizações;</li>
+                                    <li>analisar, projetar e avaliar a usabilidade de sistemas de informação;</li>
+                                    <li>compreender os fundamentos da inteligência artificial e suas aplicações em
+                                        sistemas de informação;</li>
+                                    <li>compreender os fundamentos de redes de computadores e de infra-estrutura
+                                        tecnológica necessárias para suportar os sistemas de informações das
+                                        organizações;</li>
+                                    <li>auxiliar os profissionais das outras áreas a compreenderem como os sistemas de
+                                        informação podem contribuir para as áreas de negócio;</li>
+                                    <li>saber utilizar recursos de simulação para realizar testes e previsão de
+                                        tendências em sistemas e processos organizacionais;</li>
+                                    <li>planejar e gerenciar projetos de desenvolvimento de sistemas de informação em
+                                        consonância com os objetivos de negócio das organizações;</li>
+                                    <li>reconhecer os requisitos de segurança e qualidade aplicados a sistemas de
+                                        informação;</li>
+                                    <li>conhecer as características funcionais de ambientes de trabalho em equipe,
+                                        incluindo comunicação e compromisso;</li>
+                                    <li>identificar oportunidades de negócio e constituir empreendimentos relacionados a
+                                        sistemas de informação e tecnologia de informação.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFive">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+                                aria-controls="collapseFive">
+                                Perfil do Profissional
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionCurso">
+                        <div class="card-body">
+                            O Bacharel em Sistemas de Informação deverá ser capaz de, criticamente, analisar, projetar,
+                            implementar, validar, avaliar, gerenciar e manter sistemas de informação para as
+                            organizações com qualidade e em conformidade com as recomendações de usabilidade e
+                            segurança, buscando a constante atualização com relação à inovação e tendências de mercado.
+                            O profissional estará apto, também, a empreender seu próprio negócio de desenvolvimento e
+                            consultoria em sistemas de informação, bem como continuar os estudos em cursos de
+                            pós-graduação.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <section class="container mt-5" id="servicos">
+            <div class="cabecalho">
+                <h2>Serviços</h2>
+                <span class="float-right">
+                    <a href="">ver todos</a>
+                </span>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card-group">
+                        <div class="card bg-primary text-white"
+                            onclick="window.open('https://www.unitins.br/iprotocolo/')">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <i class="fas fa-info fa-2x"></i>
+                                    <h6>
+                                        Iprotocolo
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-primary text-white"
+                            onclick="window.open('https://www.unitins.br/PortalAluno')">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <i class="fas fa-user-graduate fa-2x"></i>
+                                    <h6>
+                                        Portal do Aluno
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-primary text-white"
+                            onclick="window.open('https://www.unitins.br/portaldoprofessor/')">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <i class="fas fa-user-tie fa-2x"></i>
+                                    <h6>
+                                        Portal do Professor
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-primary text-white" onclick="window.open('https://revista.unitins.br/')">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <i class="fab fa-readme fa-2x"></i>
+                                    <h6>
+                                        Portal de Periódicos
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-primary text-white"
+                            onclick="window.open('https://www.unitins.br/nportal/portaldoservidor')">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <i class="fas fa-address-card fa-2x"></i>
+                                    <h6>
+                                        Portal do Servidor
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-primary text-white"
+                            onclick="window.open('https://www.unitins.br/nportal/graduacao/page/show/distribuicao-dos-cursos')">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <i class="fas fa-list-alt fa-2x"></i>
+                                    <h6>
+                                        Nossos Cursos
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-primary text-white"
+                            onclick="window.open('https://www.unitins.br/Concursos/Publico')">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <i class="fas fa-id-card-alt fa-2x"></i>
+                                    <h6>
+                                        Concursos e Seleções
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-primary text-white"
+                            onclick="window.open('https://www.unitins.br/nportal/sibuni')">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <i class="fas fa-book fa-2x"></i>
+                                    <h6>
+                                        Biblioteca
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-primary text-white" onclick="window.open('https://www.unitins.br/cpl')">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <i class="fas fa-file-alt fa-2x"></i>
+                                    <h6>
+                                        Portal de Licitações
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-primary text-white"
+                            onclick="window.open('https://www.unitins.br/nportal/portal/page/show/ouvidoria-da-unitins')">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <i class="fas fa-headset fa-2x"></i>
+                                    <h6>
+                                        Ouvidoria Unitins
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="rodape">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-md-left text-center mb-3">
+                    <a href="/">
+                        <img src="../img/logo-negativa.png">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 text-md-left text-center mb-3">
+                    © Universidade Estadual do Tocantins - UNITINS<br>
+                    108 Sul Alameda 11 Lote 03, CEP: 77020-122, Palmas-TO
+                </div>
+                <div class="col-md-4 text-md-right text-center">
+                    <ul class="social-area">
+                        <li><a href="https://www.youtube.com/channel/UCRtt_C3Q_9cm5J532cTzr2Q" target="_blank"><i
+                                    class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://www.facebook.com/unitinsoficial" target="_blank"><i
+                                    class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/unitins" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/unitins_oficial" target="_blank"><i
+                                    class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/school/unitins" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="ir-topo visivel transparente" onclick="irParaTopo(event)">
+        <i class="fas fa-chevron-circle-up fa-3x"></i>
+    </a>
+    <div class="copyright">
+        Redesign do site da Unitins feito por <a href="mailto:ferleonardo@gmail.com">Leonardo Fernandes</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/scripts.js"></script>
+</body>
+
+</html>
